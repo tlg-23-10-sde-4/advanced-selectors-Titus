@@ -65,3 +65,18 @@ h1:hover[class] {
     color: white;
     box-shadow: inherit;
 }
+article > ul {
+    background-image: url(https://th.bing.com/th/id/OIP.4q43qPWGanKEp-nlcUfyZQHaGY?rs=1&pid=ImgDetMain);
+}
+article > ul > button {
+    background-color: aqua;
+}
+li[id] {
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: fantasy;
+}
+article > ul > button > li:hover {
+    color: white;
+    background-color: black;
+}
