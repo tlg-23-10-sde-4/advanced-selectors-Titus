@@ -19,14 +19,16 @@ p[id] {
     color: red;
     background-color: greenyellow;
 }
-h1 {
+
+h1[class="class"] {
     color: black;
     background-color: rgb(153, 152, 152);
     padding: 5px;
-}
-h1 [class="class"] {
     font-style: italic;
 }
-h1 [id="ID"] {
+h1[id="ID"] {
+    color: black;
+    background-color: rgb(153, 152, 152);
+    padding: 5px;
     font-style: oblique;
 }
