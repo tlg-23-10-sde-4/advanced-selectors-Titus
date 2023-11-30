@@ -1,15 +1,55 @@
+html {
+    background-image: url(https://images.alphacoders.com/109/109771.jpg) ;
+}
+
 a[href] {
 
     background-color: rgb(91, 91, 91);
-}
-h1 {
-    text-align: center;
 }
 a[href="https://tlg-23-10-sde-4.github.io/Favorite-things/"]
 {
     color: blue;
     background-color: rgb(168, 115, 46);
 }
+a:hover {
+    color: red;
+    background-color: white;
+    padding: 2px;
+}
+
+h1 {
+    text-align: center;
+}
+h1[class="class"] {
+    color: black;
+    background-color: rgb(153, 152, 152);
+    padding: 5px;
+    font-style: italic;
+}
+h1[id="ID"] {
+    color: black;
+    background-color: rgb(153, 152, 152);
+    padding: 5px;
+    font-style: oblique;
+}
+h1[id="header"] {
+    font-size: xx-large;
+    background-color: grey;
+}
+h1[id="links"] {
+    background-color: whitesmoke;
+}
+h1[id~="Nested"] {
+    color: black;
+    background-color: white;
+}
+h1:hover[class] {
+    background-color: black;
+    padding: 2px;
+    color: white;
+    box-shadow: inherit;
+}
+
 p[class] {
     background-color: rgb(135, 222, 180);
     color: rgb(17, 42, 17);
@@ -23,33 +63,6 @@ p[id] {
     background-color: greenyellow;
 }
 
-h1[class="class"] {
-    color: black;
-    background-color: rgb(153, 152, 152);
-    padding: 5px;
-    font-style: italic;
-}
-h1[id="ID"] {
-    color: black;
-    background-color: rgb(153, 152, 152);
-    padding: 5px;
-    font-style: oblique;
-}
-html {
-    background-image: url(https://images.alphacoders.com/109/109771.jpg) ;
-}
-h1[id="header"] {
-    font-size: xx-large;
-    background-color: grey;
-}
-h1[id="links"] {
-    background-color: whitesmoke;
-}
-a:hover {
-    color: red;
-    background-color: white;
-    padding: 2px;
-}
 article > p{
     text-align: center;
     font-size: larger;
@@ -58,26 +71,17 @@ article > p > a{
     color: rgb(144, 218, 32);
     font-size: x-large;
 }
-h1[id~="Nested"] {
-    color: black;
-    background-color: white;
-}
-h1:hover[class] {
-    background-color: black;
-    padding: 2px;
-    color: white;
-    box-shadow: inherit;
-}
-
 article > ul > button {
     background-color: aqua;
-}
-li[id] {
-    font-size: xx-large;
-    color: aliceblue;
-    font-family: fantasy;
 }
 article > ul > button > li:hover {
     color: white;
     background-color: black;
 }
+
+li[id] {
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: fantasy;
+}
+
