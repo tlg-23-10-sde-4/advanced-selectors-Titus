@@ -1,0 +1,8 @@
+a[href] {
+    color: red;
+}
+a[href="https://tlg-23-10-sde-4.github.io/Favorite-things/"]
+{
+    color: blue;
+    
+}
