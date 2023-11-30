@@ -59,3 +59,8 @@ h1[id~="Nested"] {
     color: black;
     background-color: white;
 }
+h1:hover[class] {
+    background-color: black;
+    padding: 2px;
+    color: white;
+}
