@@ -81,6 +81,7 @@ article > ul > button > li:hover {
 li {
     font-size: xx-large;
     color: rgb(164, 9, 159);
+    background: linear-gradient(45deg, blue, red);
 }
 
 li[id] {
