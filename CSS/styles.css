@@ -33,5 +33,11 @@ h1[id="ID"] {
     font-style: oblique;
 }
 html {
-    background-image: url(https://images.fineartamerica.com/images-medium-large-5/5-big-blue-sky-les-cunliffe.jpg) ;
+    background-image: url(https://images.alphacoders.com/109/109771.jpg) ;
+}
+h1[id="header"] {
+    background-color: grey;
+}
+h1[id="links"] {
+    background-color: whitesmoke;
 }
