@@ -22,7 +22,7 @@ h1 {
 }
 h1[class="class"] {
     color: black;
-    background-color: rgb(153, 152, 152);
+    background-color: rgb(254, 0, 254);
     padding: 5px;
     font-style: italic;
 }
@@ -76,7 +76,7 @@ article > ul > button {
 }
 article > ul > button > li:hover {
     color: white;
-    background-color: black;
+
 }
 li {
     font-size: xx-large;
