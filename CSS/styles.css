@@ -36,8 +36,22 @@ html {
     background-image: url(https://images.alphacoders.com/109/109771.jpg) ;
 }
 h1[id="header"] {
+    font-size: xx-large;
     background-color: grey;
 }
 h1[id="links"] {
     background-color: whitesmoke;
+}
+a:hover {
+    color: red;
+    background-color: white;
+    padding: 2px;
+}
+article > p{
+    text-align: center;
+    font-size: larger;
+}
+article > p > a{
+    color: goldenrod;
+    font-size: x-large;
 }
