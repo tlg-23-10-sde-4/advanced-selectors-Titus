@@ -2,6 +2,9 @@ a[href] {
 
     background-color: rgb(91, 91, 91);
 }
+h1 {
+    text-align: center;
+}
 a[href="https://tlg-23-10-sde-4.github.io/Favorite-things/"]
 {
     color: blue;
