@@ -1,5 +1,5 @@
 a[href] {
-    color: rgb(168, 115, 46);
+
     background-color: rgb(91, 91, 91);
 }
 a[href="https://tlg-23-10-sde-4.github.io/Favorite-things/"]
@@ -52,6 +52,10 @@ article > p{
     font-size: larger;
 }
 article > p > a{
-    color: goldenrod;
+    color: rgb(144, 218, 32);
     font-size: x-large;
+}
+h1[id~="Nested"] {
+    color: black;
+    background-color: white;
 }
