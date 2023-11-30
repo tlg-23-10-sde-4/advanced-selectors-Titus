@@ -1,8 +1,19 @@
 a[href] {
-    color: red;
+    color: rgb(168, 115, 46);
+    background-color: rgb(91, 91, 91);
+    padding: 8px;
 }
 a[href="https://tlg-23-10-sde-4.github.io/Favorite-things/"]
 {
     color: blue;
-    
+    background-color: rgb(168, 115, 46);
+    padding: 8px;
+}
+p[class] {
+    background-color: rgb(135, 222, 180);
+    color: rgb(17, 42, 17);
+}
+p[class="lorem"] {
+    color: black;
+    background-color: burlywood;
 }
