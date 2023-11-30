@@ -78,10 +78,15 @@ article > ul > button > li:hover {
     color: white;
     background-color: black;
 }
+li {
+    font-size: xx-large;
+    color: rgb(164, 9, 159);
+}
 
 li[id] {
     font-size: xx-large;
     color: aliceblue;
     font-family: fantasy;
+    font-style: italic;
 }
 
